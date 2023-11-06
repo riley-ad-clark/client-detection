@@ -1,0 +1,61 @@
+/* -------- GENERAL ---------*/
+.container {
+    width: min(100% - 40px, 1080px);
+    margin-inline: auto;
+}
+/*-------- END OF GENERAL --------*/
+
+/* -------- SYSTEM SPECS --------*/
+
+body {
+    background-color: #1a1d28;
+}
+
+h2 {
+    text-transform: uppercase;
+    background-color: #313542;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    h2.networkH {
+        border-radius: 10px;
+    }
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+h2.networkH {
+    border-radius: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+p, h2 {
+    color: #ecebeb;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 275px;
+    background-color: #1a1d28;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #313542;
+}
+
+.top {
+    margin-top: 160px;
+}
+
+.networkConnection {
+    width: 250px;
+}
+
+
+/* -------- END OF SYSTEM SPECS --------*
