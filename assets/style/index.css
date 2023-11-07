@@ -1,8 +1,10 @@
 /* -------- GENERAL ---------*/
+
 .container {
     width: min(100% - 40px, 1080px);
     margin-inline: auto;
 }
+
 /*-------- END OF GENERAL --------*/
 
 /* -------- SYSTEM SPECS --------*/
@@ -35,10 +37,11 @@ p {
 p, h2 {
     color: #ecebeb;
 }
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.center {
+    display: grid;
+    place-items: center;
+    height: 100dvh;
 }
 
 .box {
@@ -49,12 +52,8 @@ section {
     border: 2px solid #313542;
 }
 
-.top {
-    margin-top: 160px;
-}
-
 .networkConnection {
-    width: 250px;
+    width: 100%
 }
 
 
