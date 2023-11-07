@@ -168,6 +168,14 @@ window.addEventListener('load', () => {
     checkConnection();
 })
 
+window.addEventListener('online', () => {
+    checkConnection();
+})
+
+window.addEventListener('offline', () => {
+    checkConnection();
+})
+
 console.log(navigator);
 
 
